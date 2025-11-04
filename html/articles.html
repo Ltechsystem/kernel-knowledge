@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Kernel Knowledge</title>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+            src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="article">Articles</a></li>
+            <li><a href="#" id="about">About</a></li>
+            <li><a href="#" id="search">Search</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <article>
+            <h1>Understanding Kernel Methods in Machine Learning</h1>
+            <div class="meta">By Jonas | October 15, 2025</div>
+    
+            <p>
+                Kernel methods are a cornerstone of many powerful algorithms, including support vector machines and Gaussian processes. They allow us to model complex, nonlinear relationships by implicitly mapping data into high-dimensional feature spaces.
+            </p>
+    
+            <p>
+                In this article, we’ll explore what kernels are, why they’re useful, and how to choose one for your specific problem.
+            </p>
+    
+            <h2>What is a Kernel?</h2>
+            <p>
+                A kernel is a function that computes the similarity between two data points in a (possibly infinite-dimensional) feature space without ever explicitly computing the transformation.
+            </p>
+    
+            <h2>Common Kernels</h2>
+            <ul>
+                <li>Linear Kernel: \( K(x, y) = x^\top y \)</li>
+                <li>Polynomial Kernel: \( K(x, y) = (x^\top y + c)^d \)</li>
+                <li>RBF Kernel: \( K(x, y) = \exp(-\gamma \|x - y\|^2) \)</li>
+            </ul>
+    
+            <p>
+                Each kernel captures a different notion of similarity. Choosing the right one can significantly affect model performance.
+            </p>
+        </article>
+    </main>
+    
+    <footer>
+        &copy; 2025 Kernel Knowledge. All rights reserved.
+    </footer>
+    
+    <script src="../js/nav.js"></script>
+</body>
+</html>
