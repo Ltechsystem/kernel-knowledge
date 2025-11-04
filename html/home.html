@@ -2,107 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Article Title | Kernel Knowledge</title>
+    <title>Home | Kernel Knowledge</title>
+    <link rel="stylesheet" href="../css/main.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: system-ui, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #fafafa;
-            color: #222;
-        }
-        header {
-            background: #ff3de8;
-            color: white;
-            padding: 1em 0;
-        }
-        header ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        header li {
-            margin: 0 1em;
-        }
-        header a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        header a:hover {
-            text-decoration: underline;
-        }
-        main {
-            max-width: 800px;
-            margin: 2em auto;
-            background: white;
-            padding: 2em;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        article h1 {
-            font-size: 2em;
-            margin-bottom: 0.4em;
-        }
-        article .meta {
-            color: #777;
-            font-size: 0.9em;
-            margin-bottom: 1.5em;
-        }
-        article p {
-            margin-bottom: 1.2em;
-        }
-        footer {
-            text-align: center;
-            padding: 1em;
-            color: #777;
-            font-size: 0.9em;
-        }
-    </style>
 </head>
 <body>
     <header>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Articles</a></li>
+            <li><a href="article.html">Articles</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Search</a></li>
         </ul>
     </header>
 
     <main>
-        <article>
-            <h1>Understanding Kernel Methods in Machine Learning</h1>
-            <div class="meta">By Jonas | October 15, 2025</div>
-
-            <p>
-                Kernel methods are a cornerstone of many powerful algorithms, including support vector machines and Gaussian processes. They allow us to model complex, nonlinear relationships by implicitly mapping data into high-dimensional feature spaces.
-            </p>
-
-            <p>
-                In this article, we’ll explore what kernels are, why they’re useful, and how to choose one for your specific problem.
-            </p>
-
-            <h2>What is a Kernel?</h2>
-            <p>
-                A kernel is a function that computes the similarity between two data points in a (possibly infinite-dimensional) feature space without ever explicitly computing the transformation.
-            </p>
-
-            <h2>Common Kernels</h2>
-            <ul>
-                <li>Linear Kernel: \( K(x, y) = x^\top y \)</li>
-                <li>Polynomial Kernel: \( K(x, y) = (x^\top y + c)^d \)</li>
-                <li>RBF Kernel: \( K(x, y) = \exp(-\gamma \|x - y\|^2) \)</li>
-            </ul>
-
-            <p>
-                Each kernel captures a different notion of similarity. Choosing the right one can significantly affect model performance.
-            </p>
-        </article>
+        
     </main>
 
     <footer>
